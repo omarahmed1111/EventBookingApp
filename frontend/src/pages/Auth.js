@@ -62,8 +62,8 @@ class AuthPage extends Component {
         }
       };
     }
-    console.log(config.PORT);
-    fetch(`http://localhost:${config.PORT}/graphql`, {
+    
+    fetch('/graphql', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
@@ -71,6 +71,7 @@ class AuthPage extends Component {
       }
     })
       .then(res => {
+        
         if (res.status !== 200 && res.status !== 201) {
           throw new Error('Failed!');
         }
