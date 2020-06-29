@@ -6,7 +6,7 @@ import EventList from '../components/Events/EventList/EventList';
 import Spinner from '../components/Spinner/Spinner';
 import AuthContext from '../context/auth-context';
 import './Events.css';
-
+import config from  '../config';
 class EventsPage extends Component {
   state = {
     creating: false,
@@ -75,7 +75,7 @@ class EventsPage extends Component {
 
     const token = this.context.token;
 
-    fetch('http://localhost:8000/graphql', {
+    fetch(`http://localhost:${config.PORT}/graphql`, {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
@@ -134,7 +134,7 @@ class EventsPage extends Component {
         `
     };
 
-    fetch('http://localhost:8000/graphql', {
+    fetch(`http://localhost:${config.PORT}/graphql`, {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
@@ -189,7 +189,7 @@ class EventsPage extends Component {
         }
     };
 
-    fetch('http://localhost:8000/graphql', {
+    fetch(`http://localhost:${config.PORT}/graphql`, {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
