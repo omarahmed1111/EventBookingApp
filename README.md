@@ -1,6 +1,9 @@
 # Project Description
 A website for managing events. Users could make and book events through it.
 
+# Website 
+https://eventoos.herokuapp.com/events
+
 # Development Technologies
 * HTML5
 * CSS3
