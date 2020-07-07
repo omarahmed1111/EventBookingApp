@@ -2,7 +2,7 @@
 A website for managing events. Users could make and book events through it.
 
 # Website 
-https://eventoos.herokuapp.com/events
+https://eventoos.herokuapp.com
 
 # Development Technologies
 * HTML5
