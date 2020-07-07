@@ -32,14 +32,14 @@ Make sure to install all tools in Development Technologies before start.
 3. Make a free cluster, follow all the default settings.
 4. You should be able to see this page
 ![AtlasMain](https://i.imgur.com/Paqktd2.png)
-5. On the right. Open *Database Access* in *SECURITY* section.
+5. On the left. Open *Database Access* in *SECURITY* section.
 6. Press on *ADD NEW DATABASE USER*.
 7. Enter your user data, and make sure to save them anywhere.
 8. Press on *ADD USER*.
-9. On the right. Open Network Access in *SECURITY* section.
+9. On the left. Open Network Access in *SECURITY* section.
 10. Press on *ADD IP ADDRESS*.
 11. Press on *ADD CURRENT IP ADDRESS*, and confirm.
-12. On the right. Open *Clusters* in *DATA STORAGE* section.
+12. On the left. Open *Clusters* in *DATA STORAGE* section.
 13. On your cluster, press *connect*.
 14. Press on *Connect your application*.
 15. Copy URL under *Add your connection string into your application code*.
